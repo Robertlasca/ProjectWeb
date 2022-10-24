@@ -1,6 +1,5 @@
 import {Router} from "express";
-import { indexResponse,mainResponse,sumaParametrosResponse,
-sumaParametrosFijosResponse } from "../../controllers/index.controller";
+import { indexResponse,mainResponse,sumaParametrosResponse,sumaParametrosFijosResponse } from "../controllers/index.controller";
 
 const indexRouter: Router = Router();
 
